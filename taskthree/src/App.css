@@ -1,0 +1,94 @@
+body{
+    background-color: #17181f;
+    color: #aaa;
+}
+
+*{
+
+    box-sizing: border-box;
+}
+
+
+main{
+    max-width: 300px;
+margin: 20px auto;
+}
+
+form{
+
+border: 3px solid #30313D;
+border-radius: 10px;
+padding: 5px;
+display: flex;
+ } 
+
+
+form input[type="text"] {
+    background: none;
+    color: #fff;
+    border: 0;
+    padding: 0 8px;
+    display: block;
+    width:100%;
+}
+form button{
+    background-color: #61DAFB;
+    border: 0;
+    border-radius: 6px;
+cursor: pointer;
+}
+   
+
+div.task{
+    background-color: #20212D;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 5px 9px;
+    display: flex;
+    align-items: center;
+
+}
+
+div.checkbox{
+
+    display: flex;
+    align-items: center;
+}
+
+
+
+div.task svg{
+    height: 20px;
+    margin-right: 4px;
+    fill: #61DAFB;
+    
+}
+
+div.task span {
+    position: relative;
+    flex-grow: 1;
+}
+
+div.task-name{
+    flex-grow: 1;
+}
+
+button.trash{
+background: none;
+border: none;
+display: flex;
+cursor: pointer;
+}
+
+button.trash svg{
+    fill:#aaa;
+    height: 14px;
+}
+div.task input{
+    border: 2px solid #7777;
+    border-radius: 5px;
+    padding: 2 4px;
+}
+div.task form{
+    flex-grow: 1;
+}
